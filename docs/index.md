@@ -1,7 +1,10 @@
 Initial draft. [TODO](/TODO.md)
 
+![VisualVM logo](/visualvm_logo_big.png)
+
 # Description
-[VisualVM](https://visualvm.github.io/) is a Java profiling tool
+[VisualVM](https://visualvm.github.io/) is a Java profiling tool. It integrates the functionality of JDK commandline tools with 
+its profiler in an easy-to-use gui. It ships as part of the JDK or standalone and is very widely used in java development and production.
 
 # Setup
 VisualVM is provided standalone or integrated into an IDE
@@ -38,5 +41,5 @@ from within IntelliJ IDEA and use the added toolbar buttons to launch VisualVM a
      - Netbeans
      - Eclipse
      - IntelliJ IDEA
-   - OQL support
+   - OQL (Object Query Language) support for searching heap dumps
    - Variety of export formats
