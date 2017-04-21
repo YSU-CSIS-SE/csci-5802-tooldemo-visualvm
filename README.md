@@ -53,7 +53,7 @@ Note: a simple online search is not enough to pass this assignment. It should be
 ## How to turn in your assignment
 See the milestones section.  Each individual milestone has specific instructions on how to turn it in.
 
-At the end, you will receive a link to a submission site to submit your tool demo assignment before the final due date of 5/1.
+At the end, you will receive a link to a submission site to submit your tool demo assignment before the final due date of 5/3.
 
 ## Grading Policy (Please read carefully)
 Some things that are considered while grading.
