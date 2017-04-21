@@ -48,7 +48,7 @@ Note: a simple online search is not enough to pass this assignment. It should be
 * 3/6/17: Tool demo selection due. Notify everyone in the #tooldemo channel in slack what your choice of tool will be including the name of the two people on your team. Do this before the 3/6 deadline if possible. Tools will be assigned on a first come first served basis.  No two teams can work on the exact same tool.
 * 3/27/17: Use cases for the tool provided including test systems that will be used to demonstrate. This should be an outline of what you plan to do for the rest of the semester.  It should lis.  This list can change but it needs to be submitted in draft by this due date. To submit this milestone simple issue a pull request in the tool assignment repo and assign the instructor and TA as reviewers.
 * 4/15/17: First draft of write-up via github pages. To submit this part, a form will be provided for you to submit your github pages website
-* 5/1/2017: Final deadline for all deliverables. To submit this part, a form will be provided towards the end of the semester.
+* 5/3/2017: Final deadline for all deliverables. To submit this part, a form will be provided towards the end of the semester.
 
 ## How to turn in your assignment
 See the milestones section.  Each individual milestone has specific instructions on how to turn it in.
