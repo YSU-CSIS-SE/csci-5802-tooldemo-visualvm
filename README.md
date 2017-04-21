@@ -2,7 +2,7 @@
 
 __Posted on:__ 2/24/2017
 
-__Final Due Date:__  5/1/2017 (by 23:59)
+__Final Due Date:__  5/3/2017 (by 23:59)
 (there are individual milestones prior to final due date. See below.)
 
 __Total points possible:__ 100
