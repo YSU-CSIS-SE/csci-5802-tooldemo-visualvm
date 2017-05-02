@@ -7,6 +7,7 @@ it needed to be run with -Xverify:no
   - [Identify Bottlenecks](#identify-bottlenecks)
   - [Compare Method Implimentations](#compare-method-implimentations)
   - [Locate memory leaks](#locate-memory-leaks)
+  - [Debug Launcher Code](#debug-launcher-code)
 
 ## Identify Bottlenecks
   1. To identify where your program is spending most of its time, open the 

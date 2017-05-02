@@ -37,11 +37,15 @@ from within IntelliJ IDEA and use the added toolbar buttons to launch VisualVM a
 
 # Tool Evaluation
  - User friendliness
-   - Nice tabs
-     - Highly configurable but very easy to mess up
-   - Information displays look good
+   - Customizable UI
+     - Highly configurable but also very easy to mess up
+       (e.g. accidentally dragging a view)
+   - Information displays are intuitive
+   - Icons are informative
+   - Searching and filtering is available for lists
  - Stability
    - UI freeze occured during testing
+   - Instrumentaion can fail with obscure errors for some programs
  - Integratibility/Flexibility
    - Integrates with any XMP-compatable program
    - IDE plugins
