@@ -4,6 +4,8 @@
 [VisualVM](https://visualvm.github.io/) is a Java profiling tool. It integrates the functionality of JDK commandline tools with 
 its profiler in an easy-to-use gui. It ships as part of the JDK or standalone and is very widely used in java development and production.
 
+[Video Feature Demo](https://www.youtube.com/watch?v=SQsCgmWmVzg)
+
 # Setup
 VisualVM is provided standalone or integrated into an IDE
 ## Standalone
