@@ -32,11 +32,7 @@ from within IntelliJ IDEA and use the added toolbar buttons to launch VisualVM a
  * [Locate memory leaks](/usecases.md#locate-memory-leaks)
    - Memory sampler and profiler
    - Find largest objects or sort by instances or bytes (with filters to only view objects from your program)
- * Visualize threads to identify deadlocks
-   - Thread view to identify a deadlock situation, thread dump to see problematic methods, heap dump to analize program state
- * View core dumps to debug faulty logic
-   -  View stack trace to identify where the problem occured
- * Debug launcher code
+ * [Debug launcher code](/usecases.md#debug-launcher-code)
    - Use Overview to check the VM arguments and environment
 
 # Tool Evaluation

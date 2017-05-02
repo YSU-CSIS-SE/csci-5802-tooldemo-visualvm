@@ -1,6 +1,7 @@
 The following tests were performed on 
 [a simple example program](PrimeGen.java) 
-that generates prime numbers
+that generates prime numbers. In order for profiling to work, 
+it needed to be run with -Xverify:no
 
 # Use Cases
   - [Identify Bottlenecks](#identify-bottlenecks)
@@ -100,3 +101,10 @@ locate the leak very quickly, or possibly identify that the object is not
 really the source of the memory leak, allowing you to look for a 
 different candidate immediately.  
 ![screenshot](/images/allocationTrace.png)
+
+## Debug Launcher Code
+  1. If you have a Java program which is started by a launcher, you can 
+use VisualVM to quickly verify the launch paramaters. Simply open the 
+program in VisualVM and, on the overview window, inspect the JVM 
+arguments and system properties tabs.  
+![screenshot](/images/launcherDebug.png)
