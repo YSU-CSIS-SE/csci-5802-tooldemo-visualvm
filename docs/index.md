@@ -1,6 +1,6 @@
 Initial draft. [TODO](/TODO.md)
 
-![VisualVM logo](/visualvm_logo_big.png)
+![VisualVM logo](/images/visualvm_logo_big.png)
 
 # Description
 [VisualVM](https://visualvm.github.io/) is a Java profiling tool. It integrates the functionality of JDK commandline tools with 
@@ -25,7 +25,7 @@ follow the directions there to install and use it.
 Install the 3rd party plugin [VisualVM Launcher](https://plugins.jetbrains.com/plugin/7115-visualvm-launcher) manually or 
 from within IntelliJ IDEA and use the added toolbar buttons to launch VisualVM along with the application.
 
-# Use cases
+# [Use cases](/usecases.md)
  * Identify CPU bottlenecks for optimization
    - CPU sampler or profiler views, thread CPU usage views
    - Impliment different implimentations and swap between them at runtime: compare performance using snapshots
