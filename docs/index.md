@@ -29,8 +29,8 @@ from within IntelliJ IDEA and use the added toolbar buttons to launch VisualVM a
  * [Compare method implimentations](/usecases.md#compare-method-implimentations)
    - Impliment methods multiple ways and swap between them at
      runtime to compare performance
- * Find memory leaks
-   - Memory Sampler and profiler
+ * [Locate memory leaks](/usecases.md#locate-memory-leaks)
+   - Memory sampler and profiler
    - Find largest objects or sort by instances or bytes (with filters to only view objects from your program)
  * Visualize threads to identify deadlocks
    - Thread view to identify a deadlock situation, thread dump to see problematic methods, heap dump to analize program state

@@ -5,6 +5,7 @@ that generates prime numbers
 # Use Cases
   - [Identify Bottlenecks](#identify-bottlenecks)
   - [Compare Method Implimentations](#compare-method-implimentations)
+  - [Locate memory leaks](#locate-memory-leaks)
 
 ## Identify Bottlenecks
   1. To identify where your program is spending most of its time, open the 
@@ -49,3 +50,53 @@ relative performance. Use this to select the most effecient method
 implimentation.  
 ![screenshot](/images/filter.png)
 
+## Locate Memory Leaks
+  1. Open your program in VisualVM and go to the memory profiler view.  
+![screenshot](/images/memProfiler.png)
+
+  2. Edit the memory settings by selecting the `Settings` checkbox and 
+switching the the memory settings tab. Select settings depending on how 
+much data you would like to collect. More data collection comes at the 
+cost of worse performance. For our purposes in this example, we will 
+track all object allocations and record stack traces of each one, 
+so we can find the culprit.  
+![screenshot](/images/memSettings.png)
+
+  3. When the memory profiling settings are to your liking, hit the 
+memory button to begin the instrumentation process. After instrumentation 
+completes, a live feed of all tracked objects, by type, will be 
+displayed.  
+![screenshot](/images/memProfiling.png)
+
+  4. Take a snapshot before attempting to reproduce the memory leak.  
+![screenshot](/images/memSnapshot.png)
+
+  5. Run your application attempting to reproduce the memory leak until 
+you see strange behavior on the profiler or monitor view.  
+![screenshot](/images/memMonitor.png)
+
+  6. Take another snapshot once you think the memory leak has occured to 
+the extent that the leaked objects will be easily identifiable.  
+![screenshot](/images/memSnapshot2.png)
+
+  7. Go to the original snapshot and use the rightmost button above the 
+object list to generate a comparison view against the new snapshot.  
+![screenshot](/images/memCompareSelect.png)
+![screenshot](/images/memCompare.png)
+
+  8. Try to locate a culprit object. If you did not use the setting to 
+record allocation stack traces, use knowledge of the object name and 
+where it might be used to attempt to locate the leak in the source.  
+
+  9. If you selected the setting to record application stack traces, go 
+to the most recent snapshot from the comparison and find the object on 
+the list using the search feature.  
+![screenshot](/images/memFind.png)
+
+  10. Right click on the object and select `Show Allocations Stack 
+Traces`. This will show what methods are allocating the object, and how 
+much of the object they have allocated. You can use this information to 
+locate the leak very quickly, or possibly identify that the object is not 
+really the source of the memory leak, allowing you to look for a 
+different candidate immediately.  
+![screenshot](/images/allocationTrace.png)
