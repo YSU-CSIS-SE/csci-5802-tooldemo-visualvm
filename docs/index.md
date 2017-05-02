@@ -1,5 +1,3 @@
-Initial draft. [TODO](/TODO.md)
-
 ![VisualVM logo](/images/visualvm_logo_big.png)
 
 # Description
@@ -26,9 +24,11 @@ Install the 3rd party plugin [VisualVM Launcher](https://plugins.jetbrains.com/p
 from within IntelliJ IDEA and use the added toolbar buttons to launch VisualVM along with the application.
 
 # [Use cases](/usecases.md)
- * Identify CPU bottlenecks for optimization
+ * [Identify CPU bottlenecks for optimization](/usecases.md#identify-bottlenecks)
    - CPU sampler or profiler views, thread CPU usage views
-   - Impliment different implimentations and swap between them at runtime: compare performance using snapshots
+ * [Compare method implimentations](/usecases.md#compare-method-implimentations)
+   - Impliment methods multiple ways and swap between them at
+     runtime to compare performance
  * Find memory leaks
    - Memory Sampler and profiler
    - Find largest objects or sort by instances or bytes (with filters to only view objects from your program)
