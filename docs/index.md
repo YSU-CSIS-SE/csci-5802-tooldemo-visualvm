@@ -4,6 +4,9 @@
 [VisualVM](https://visualvm.github.io/) is a Java profiling tool. It integrates the functionality of JDK commandline tools with 
 its profiler in an easy-to-use gui. It ships as part of the JDK or standalone and is very widely used in java development and production.
 
+While VisualVM *can* help find errors like deadlocks, memory leaks, and others, it is no substitute for a real debugger. 
+Its main use should be to track down a program's largest inefficiencies to help optimize a program.
+
 [Video Feature Demo](https://www.youtube.com/watch?v=SQsCgmWmVzg)
 
 # Setup
